@@ -16,13 +16,13 @@ bot = commands.Bot(
 @bot.event
 async def on_message(message):
   try:
-    gd = await bot.fetch_guild(paste your guild id here with brackets)
-    category1 = bot.get_channel(paste your category id here with brackets) 
+    gd = await bot.fetch_guild(1151447712886181960)
+    category1 = bot.get_channel(1256779644557070346) 
 
     #### TICKET CLOSE FUNCTION ####
-    if message.channel in category1.channels and message.channel.id != (paste ur log channel id without brackets) and message.author.id != (paste your bot id wihtout brackets) and message.content == '?close':
-      category = bot.get_channel(paste your category id here with brackets) 
-      ch = await bot.fetch_channel(paste your log channel id here with brackets)
+    if message.channel in category1.channels and message.channel.id != 1256779643260895292 and message.author.id != MTI2OTEzNjQ1NTA1ODU5MTgxOA.GJLhbK.xWsNLvEbolZAllZHlQZHOviTEoIM_eYS5UesiU and message.content == '?close':
+      category = bot.get_channel(1256779644557070346) 
+      ch = await bot.fetch_channel(1256779643260895292)
       id = message.channel.topic
       usr = await bot.fetch_user(id)
 
